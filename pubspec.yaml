@@ -1,0 +1,19 @@
+name: dart_api_demo
+description: A demo Web API written in Dart, using Dart Frog, Prisma ORM & SQL Server
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  api_data_source:
+    path: packages/api_data_source
+  dart_frog: ^0.3.0
+  sql_server_data_source:
+    path: packages/sql_server_data_source
+
+dev_dependencies:
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^4.0.0

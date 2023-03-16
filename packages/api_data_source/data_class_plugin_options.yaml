@@ -1,0 +1,14 @@
+json:
+  # key_name_conventions glob match takes precedence over key_name_convention
+  key_name_conventions:
+    snake_case:
+      - "lib/src/models/*.dart"
+
+data_class:
+  options_config:
+    from_json:
+      enabled:
+        - "lib/src/models/*.dart"
+    to_json:
+      enabled:
+        - "lib/src/models/*.dart"
