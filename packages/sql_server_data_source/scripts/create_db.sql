@@ -35,4 +35,7 @@ CREATE TABLE [dbo].[User](
 ) ON [PRIMARY]
 GO
 
+INSERT INTO [dbo].[User] VALUES ('86d24864-2027-40d1-8762-fd9f928ad93b', 'demo@email.com', 'Demo', 'User', 'demo')
+GO
+
 SELECT * FROM [dbo].[User]
